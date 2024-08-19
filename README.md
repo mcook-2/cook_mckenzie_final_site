@@ -41,11 +41,3 @@ docker run -p 5575:5575 --name cook_mckenzie_assignment14 cook_mckenzie_assignme
 ### 4. Access the Application
 
 Open your web browser and go to [http://localhost:5575](http://localhost:5575) to view your React UI Component Library.
-
-### 5. Run mock git commit test (eslint, prettier & jest test)
-
-Open docker container (cook_mckenzie_assignment13). Naviagte to "Exec". Run this command:
-
-```
-npm run build-check
-```
