@@ -14,11 +14,8 @@ COPY tsconfig.json ./
 # Copy the rest of the project files
 COPY . .
 
-# Build the project
-RUN npm run build-storybook
-
-# Expose port (if needed for Storybook or other services)
-EXPOSE 8018
+# Expose port
+EXPOSE 5575
 
 # Default command (if any, for running Storybook or another service)
-CMD ["npx", "http-server", "./storybook-static", "-p", "8018"]
+CMD ["npm", "run", "dev"]
