@@ -38,6 +38,6 @@ Run the Docker container:
 docker run -p 5575:5575 --name cook_mckenzie_assignment14 cook_mckenzie_assignment14
 ```
 
-### 4. Access the Application
+### 3. Access the Application
 
 Open your web browser and go to [http://localhost:5575](http://localhost:5575) to view portfolio.
