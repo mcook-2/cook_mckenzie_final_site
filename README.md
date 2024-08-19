@@ -2,7 +2,7 @@
 
 # Setting up and Running Your React UI Component Library in Docker
 
-This Docker setup will allow you to host your React UI Component Library on localhost:8083.
+This Docker setup will allow you to host The portfolio site on localhost:5575.
 
 ## Prerequisites
 
@@ -40,4 +40,4 @@ docker run -p 5575:5575 --name cook_mckenzie_assignment14 cook_mckenzie_assignme
 
 ### 4. Access the Application
 
-Open your web browser and go to [http://localhost:5575](http://localhost:5575) to view your React UI Component Library.
+Open your web browser and go to [http://localhost:5575](http://localhost:5575) to view portfolio.
