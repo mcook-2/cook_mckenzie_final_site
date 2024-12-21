@@ -12,6 +12,7 @@ export default tseslint.config(
       '.husky/',
       '.storybook/',
       '.vscode/',
+      'dist/',
       'node_modules/',
       'storybook-static/',
       '*.config.js',
