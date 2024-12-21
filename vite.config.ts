@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/cook_mckenzie_final_site/",
+  base: './', // Ensures assets are served with relative paths
   server: {
     port: 5575,
     host: true, // Expose the server on the network
@@ -12,20 +12,7 @@ export default defineConfig({
     port: 8001, // Or any other port you prefer
   },
   build: {
-    lib: {
-      entry: './src/main.tsx',
-      name: 'component-library',
-      fileName: (format) => `component-library.${format}.js`,
-    },
-    rollupOptions: {
-      external: ['react', 'react-dom'],
-      output: {
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM',
-        },
-      },
-
-    },
+    outDir: 'dist', // Directory for production files
+    sourcemap: true, // Optional: Include source maps for debugging
   },
 });
