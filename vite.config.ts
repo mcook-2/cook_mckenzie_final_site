@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: "/cook_mckenzie_final_site",
   server: {
     port: 5575,
     host: true, // Expose the server on the network

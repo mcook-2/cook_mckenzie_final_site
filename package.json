@@ -1,7 +1,6 @@
 {
   "name": "component-library",
   "version": "1.0.0",
-  "main": "index.js",
   "homepage": "https://mcook-2.github.io/cook_mckenzie_final_site/",
   "scripts": {
     "dev": "vite",
